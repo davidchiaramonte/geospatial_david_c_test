@@ -4,6 +4,7 @@
 view: ndt_example {
   derived_table: {
     sql_trigger_value: SELECT 1 ;;
+    publish_as_db_view: yes
     explore_source: cities {
       column: name { field: states.name }
       column: type { field: states.type }
